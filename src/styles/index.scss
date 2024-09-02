@@ -1,0 +1,139 @@
+:root,
+.color-scheme--light {
+  /*
+  ===
+    These are the colors of the design system that chronologically rhyme with what is in the figma file "UI" page
+  ===
+  */
+
+  /* Text&Icon [ti] */
+  --aurora_ti_Primary: #0a0a0a;
+  --aurora_ti_Secondary: #666666;
+  --aurora_ti_Tertiary: #a3a3a3;
+  --aurora_ti_Disable: #a3a3a3;
+  --aurora_ti_Inverted: #ffffff;
+
+  /* Special [spec] */
+  --aurora_spec_Red: #ff3d4d;
+  --aurora_spec_Orange: #ffa64c;
+  --aurora_spec_Green: #3ac270;
+  --aurora_spec_Blue: #2997ff;
+  --aurora_spec_Red_bg1: #fab3b9;
+  --aurora_spec_Red_bg2: #f7eced;
+  --aurora_spec_Green_bg1: #a5e1be;
+  --aurora_spec_Green_bg2: #e5f1ea;
+  --aurora_spec_Orange_bg1: #e5f1ea;
+  --aurora_spec_Orange_bg2: #fceee0;
+
+  /* Neutral [ne] */
+  --aurora_ne_10: #ffffff;
+  --aurora_ne_20: #f6f6f6;
+  --aurora_ne_30: #dfdfdf;
+  --aurora_ne_40: #d4d4d4;
+  --aurora_ne_50: #c7c7c7;
+  --aurora_ne_60: #4d4d4d;
+  --aurora_ne_70: #242424;
+  --aurora_ne_80: #0a0a0a;
+
+  /* Borders [bd] */
+  --aurora_bd_Primary: #e6e6e6;
+  --aurora_bd_Secondary: #dddddd;
+  --aurora_bd_Active: #0a0a0a;
+
+  /* Elements (toogle, checkbox, radiobutton) [el] */
+  --aurora_el_Active_Default: #0a0a0a;
+  --aurora_el_Active_Hover: #2f2f2f;
+  --aurora_el_Active_Pressed: #484848;
+  --aurora_el_Active_Disable: #979797;
+  --aurora_el_Active_Color_Inside: #ffffff;
+  --aurora_el_Active_Disable_Color_Inside: #dcdcdc;
+
+  --aurora_el_InActive_Default: #b6b6b6;
+  --aurora_el_InActive_Hover: #939393;
+  --aurora_el_InActive_Pressed: #898989;
+  --aurora_el_InActive_Disable: #979797;
+  --aurora_el_InActive_Color_Inside: #ffffff;
+  --aurora_el_InActive_Disable_Color_Inside: #dcdcdc;
+
+  /* Modal [mo] */
+  --aurora_mo_Primary: #ffffff;
+  --aurora_mo_Bg: #0a0a0a8a;
+
+  /* Select [se] */
+  --aurora_se_Default: #ffffff;
+  --aurora_se_Hover: #f6f6f6;
+
+  /* Static [st] */
+  --aurora_se_White: #ffffff;
+  --aurora_se_Black: #0a0a0a;
+}
+
+html[data-theme="dark"],
+.color-scheme--dark {
+  /*
+  ===
+    These are the colors of the design system that chronologically rhyme with what is in the figma file "UI" page
+  ===
+  */
+
+  /* Text&Icon [ti] */
+  --aurora_ti_Primary: #ffffff;
+  --aurora_ti_Secondary: #b1b1b1;
+  --aurora_ti_Tertiary: #888888;
+  --aurora_ti_Disable: #828282;
+  --aurora_ti_Inverted: #0a0a0a;
+
+  /* Special [spec] */
+  --aurora_spec_Red: #ee404f;
+  --aurora_spec_Orange: #ef9d4c;
+  --aurora_spec_Green: #3fc374;
+  --aurora_spec_Blue: #1283f5;
+  --aurora_spec_Red_bg1: #7d1f26;
+  --aurora_spec_Red_bg2: #3d0f12;
+  --aurora_spec_Green_bg1: #1d6037;
+  --aurora_spec_Green_bg2: #0e2f1b;
+  --aurora_spec_Orange_bg1: #7a4f24;
+  --aurora_spec_Orange_bg2: #372410;
+
+  /* Neutral [ne] */
+  --aurora_ne_10: #0a0a0a;
+  --aurora_ne_20: #1a1a1a;
+  --aurora_ne_30: #343434;
+  --aurora_ne_40: #525252;
+  --aurora_ne_50: #6a6a6a;
+  --aurora_ne_60: #7a7a7a;
+  --aurora_ne_70: #a1a1a1;
+  --aurora_ne_80: #ffffff;
+
+  /* Borders [bd] */
+  --aurora_bd_Primary: #2d2d2d;
+  --aurora_bd_Secondary: #292929;
+  --aurora_bd_Active: #ffffff;
+
+  /* Elements (toogle, checkbox, radiobutton) [el] */
+  --aurora_el_Active_Default: #ffffff;
+  --aurora_el_Active_Hover: #eaeaea;
+  --aurora_el_Active_Pressed: #eaeaea;
+  --aurora_el_Active_Disable: #5d5d5d;
+  --aurora_el_Active_Color_Inside: #0a0a0a;
+  --aurora_el_Active_Disable_Color_Inside: #282828;
+
+  --aurora_el_InActive_Default: #686868;
+  --aurora_el_InActive_Hover: #808080;
+  --aurora_el_InActive_Pressed: #949494;
+  --aurora_el_InActive_Disable: #5d5d5d;
+  --aurora_el_InActive_Color_Inside: #0a0a0a;
+  --aurora_el_InActive_Disable_Color_Inside: #323232;
+
+  /* Modal [mo] */
+  --aurora_mo_Primary: #202020;
+  --aurora_mo_Bg: #0a0a0a8a;
+
+  /* Select [se] */
+  --aurora_se_Default: #191919;
+  --aurora_se_Hover: #1d1d1d;
+
+  /* Static [st] */
+  --aurora_se_White: #ffffff;
+  --aurora_se_Black: #0a0a0a;
+}

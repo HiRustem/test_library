@@ -1,0 +1,63 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint==laptopXL {
+    @media only screen and (max-width: 2560px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==laptopL {
+    @media only screen and (max-width: 1440px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==laptopC {
+    @media only screen and (max-width: 1150px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==laptop {
+    @media only screen and (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tabletL {
+    @media only screen and (max-width: 920px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tablet {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tabletS {
+    @media only screen and (max-width: 576px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==mobileL {
+    @media only screen and (max-width: 425px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==mobile {
+    @media only screen and (max-width: 375px) {
+      @content;
+    }
+  }
+}
+
+@mixin transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
